@@ -8,5 +8,8 @@
   ],
   "engines": {
     "node": "18.x"
-  }
+  },
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs"
 }
