@@ -1,32 +1,19 @@
-# DocsAI Chatbot Template
+This is a [Next.js](https://nextjs.org/) project template for creating an Anthropic Claude-powered documentation chatbot.
 
-This is a simple template for deploying DocsAI chatbots. It provides a basic chatbot interface that can be customized for each chatbot instance.
+## Getting Started
 
-## Environment Variables
-
-This template uses the following environment variables:
-
-- `NEXT_PUBLIC_CHATBOT_NAME`: The name of your chatbot
-- `NEXT_PUBLIC_CHATBOT_ID`: The unique ID of your chatbot
-
-These variables are set during deployment by the DocsAI platform.
-
-## Development
-
-To run this project locally:
+First, run the development server:
 
 ```bash
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-## Customization
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can customize the appearance and behavior of your chatbot by editing the relevant files:
+## Modified for Vercel Deployment
 
-- `src/app/page.tsx`: The main chatbot interface
-- `src/app/globals.css` and `tailwind.config.js`: Styling
-
-## Deployment
-
-This template is meant to be deployed automatically by the DocsAI platform. You don't need to deploy it manually.
+The project has been configured for seamless deployment on Vercel.
